@@ -4,10 +4,10 @@
 Summary:	Perl module for fast and correct UTF-8 I/O
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	1
+Release:	2
 Group:		Development/Perl
 License:	GPLv2+ or Artistic
-Url:		http://search.cpan.org/dist/%{modname}/
+Url:		http://metacpan.org/pod/PerlIO::utf8_strict
 Source0:	http://search.cpan.org/CPAN/authors/id/L/LE/LEONT/PerlIO-utf8_strict-%{modver}.tar.gz
 BuildRequires:	perl-devel
 
