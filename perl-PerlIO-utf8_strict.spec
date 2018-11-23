@@ -11,6 +11,7 @@ Url:		http://metacpan.org/pod/PerlIO::utf8_strict
 Source0:	http://search.cpan.org/CPAN/authors/id/L/LE/LEONT/PerlIO-utf8_strict-%{modver}.tar.gz
 BuildRequires:	perl-devel
 BuildRequires:	perl(Test::More)
+BuildRequires:	perl(Test::Exception)
 
 %description
 Perl module for fast and correct UTF-8 I/O
