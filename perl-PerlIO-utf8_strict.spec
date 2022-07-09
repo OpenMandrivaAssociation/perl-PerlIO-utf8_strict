@@ -1,10 +1,14 @@
 %define	modname	PerlIO-utf8_strict
-%define	modver	0.007
+%define	modver	0.009
+%ifarch %{x86_64}
+# FIXME bug
+%global _debugsource_template %{nil}
+%endif
 
 Summary:	Perl module for fast and correct UTF-8 I/O
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	2
+Release:	1
 Group:		Development/Perl
 License:	GPLv2+ or Artistic
 Url:		http://metacpan.org/pod/PerlIO::utf8_strict
