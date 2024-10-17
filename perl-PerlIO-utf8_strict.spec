@@ -7,7 +7,7 @@ Version:	0.010
 Release:	1
 Group:		Development/Perl
 License:	GPLv2+ or Artistic
-Url:		http://metacpan.org/pod/PerlIO::utf8_strict
+Url:		https://metacpan.org/pod/PerlIO::utf8_strict
 Source0:	http://search.cpan.org/CPAN/authors/id/L/LE/LEONT/PerlIO-utf8_strict-%{version}.tar.gz
 BuildRequires:	perl-devel
 BuildRequires:	perl(Test::More)
