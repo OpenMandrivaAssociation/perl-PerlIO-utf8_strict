@@ -4,7 +4,7 @@
 Summary:	Perl module for fast and correct UTF-8 I/O
 Name:		perl-%{modname}
 Version:	0.010
-Release:	1
+Release:	2
 Group:		Development/Perl
 License:	GPLv2+ or Artistic
 Url:		https://metacpan.org/pod/PerlIO::utf8_strict
