@@ -9,6 +9,7 @@ Group:		Development/Perl
 License:	GPLv2+ or Artistic
 Url:		https://metacpan.org/pod/PerlIO::utf8_strict
 Source0:	http://search.cpan.org/CPAN/authors/id/L/LE/LEONT/PerlIO-utf8_strict-%{version}.tar.gz
+BuildRequires:	make
 BuildRequires:	perl-devel
 BuildRequires:	perl(Test::More)
 BuildRequires:	perl(Test::Exception)
